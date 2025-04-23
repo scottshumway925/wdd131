@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    text-size-adjust: 20;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+}
+
+h2 {
+    color: #006EB6;
+    font-size: small;
+}
+
+div {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    padding: 5rem;
+    border: .2rem solid black;
+}
+
+header {
+    text-align: center;
+    border-bottom: .1rem solid gray;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+li {
+    margin-top: 1rem;
+    text-align: left;
+}
+
+img {
+    size: 150px;
+}
