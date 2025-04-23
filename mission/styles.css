@@ -14,9 +14,11 @@ h2 {
 div {
     margin-top: 5rem;
     margin-bottom: 5rem;
-    margin-left: 20rem;
-    margin-right: 20rem;
-    padding: 5rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    padding: 10rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
     border: .2rem solid black;
 }
 
@@ -38,5 +40,5 @@ li {
 }
 
 img {
-    size: 150px;
+    width: 150px;
 }
