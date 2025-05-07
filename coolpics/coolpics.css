@@ -1,0 +1,56 @@
+body {
+    margin: 0 auto;
+    text-align: center;
+    font-family: "fredoka";
+    font-size: large;
+}
+
+header, footer {
+    background-color: darkblue;
+    color: white;
+}
+
+header, main, footer {
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+    height: 250px;
+    width: 250px;
+    border: .6rem solid lightblue;
+    /* I had to do some research for this effect here */
+    filter: drop-shadow(.5rem .5rem .3rem black); 
+}
+
+button {
+    background-color: darkblue;
+    font-family: "fredoka";
+    border: none;
+    font-size: 2rem;
+    color: white;
+}
+
+a:link, a:visited {
+    color: white;
+}
+
+@media (min-width: 600px) {
+    section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1000px) {
+    section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .menu {
+        display: none;
+    }
+}
