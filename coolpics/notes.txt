@@ -1,0 +1,25 @@
+insertAdjacentHTML() Method w3schools
+
+document.body.insertHTML(
+    'afterbegin',
+    viewerTemplate(newSrc, target.alt)
+)
+
+function viewerTemplate(pic, alt) {
+    return `<dic class="viewer">
+    <span class="close-viwer">X</span>
+    <img src="${pic}" alt="{alt}">
+    </div>`
+}
+
+w3schools split()
+
+text.split("-")
+
+image-full.jpg
+image-small.jpg
+
+const imgSrc = event.target.src.split(-)
+const newSrc = imgSrc[0] + '-full.jpg'
+
+use an event handler on things with the "img" class or something
