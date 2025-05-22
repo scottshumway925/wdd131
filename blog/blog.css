@@ -12,8 +12,32 @@ h1, h2 {
 .navigation {
     border-top: .2rem solid goldenrod;
     border-bottom: .2rem solid goldenrod;
-    justify-content: end;
-    justify-items: end;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.skiptocontent a {
+    position: absolute;
+    left: -999px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    margin-top: 2rem;
+}
+
+.skiptocontent a:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    left: auto;
+    margin: 0;
+    padding: 0.5rem 1rem;
+    background-color: #fff8dc;
+    border: 2px solid goldenrod;
+    font-weight: bold;
 }
 
 ul {
