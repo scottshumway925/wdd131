@@ -19,12 +19,12 @@ h1, h2 {
 ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding-right: 3rem;
+    margin-right: 3rem;
     list-style-type: none;
 }
 
 li {
-    padding-right: 3rem;
+    margin-right: 3rem;
 }
 
 main {
