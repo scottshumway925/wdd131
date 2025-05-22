@@ -1,0 +1,75 @@
+body {
+    font-family: "fredoka";
+    color: black;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    color: darkred;
+    text-align: center;
+}
+
+.navigation {
+    border-top: .2rem solid goldenrod;
+    border-bottom: .2rem solid goldenrod;
+}
+
+ul {
+    padding-left: 75rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 2rem;
+}
+
+.book {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+
+.sort {
+    border: .2rem solid goldenrod;
+    padding: 1rem;
+    margin: 3rem;
+}
+
+.data {
+    text-align: right;
+    border-right: .2rem solid goldenrod;
+    padding-right: 2rem;
+}
+
+.book-data {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+div {
+    padding-bottom: 3rem;
+}
+
+img {
+    max-width: 60%;
+}
+
+section {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: darkred;
+    font-size: x-large;
+    text-decoration: none;
+}
+
+.book-data p {
+    text-align: left;
+}
