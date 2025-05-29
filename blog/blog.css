@@ -66,6 +66,8 @@ main {
     border: .2rem solid goldenrod;
     padding: 1rem;
     margin: 3rem;
+    grid-row: 1 / -1;
+    grid-column: 2;
 }
 
 .data {
@@ -79,7 +81,7 @@ main {
     padding-right: 1rem;
 }
 
-div {
+article, div {
     padding-bottom: 3rem;
 }
 
