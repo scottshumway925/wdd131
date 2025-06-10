@@ -1,9 +1,9 @@
 const character = {
-      name: "Snortleblat",
-      class: "Swamp Beat Diplomat",
+      name: "Lekovo - Created by Scott Shumway",
+      class: "Fallen God",
       level: 5,
       health: 100,
-      image: 'https://andejuli.github.io/img/snortleblat.png',
+      image: 'lekovo.png',
       attacked() {
         if (this.health >= 20) {
           this.level -= 1;
@@ -33,12 +33,14 @@ characterName.innerHTML = character.name
 
 function onAttackClick() {
     character.attacked()
+    characterLevel.innerHTML = character.level
     characterHealth.innerHTML = character.health
 }
 
 function onLevelUpClick() {
     character.levelUp()
     characterLevel.innerHTML = character.level
+    characterHealth.innerHTML = character.health
 }
 
 document.querySelector("#attacked").addEventListener("click", onAttackClick)
