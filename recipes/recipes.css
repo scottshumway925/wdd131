@@ -44,6 +44,10 @@ h1 {
     flex-direction: column;
 }
 
+ul {
+    list-style-type: none;
+}
+
 .recipe > img {
     width: 100%;
 }
