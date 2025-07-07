@@ -1,0 +1,134 @@
+:root {
+    --primary_color: bisque;
+    --secondary_color: #BB967C;
+    --tirtiary_color: #5b402d;
+}
+
+body {
+    margin: 0 auto;
+    font-size: 1.3rem;
+}
+
+h1, h2, h3, button {
+    font-family: fredoka;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+.profile_picture {
+    max-width: 400px;
+}
+
+.about_section {
+    display: flex;
+    gap: 1rem;
+    background-color: var(--primary_color);
+    margin-left: 6rem;
+    margin-right: 6rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    padding: 4rem;
+}
+
+header img {
+    max-width: 200px;
+}
+
+header {
+    background-color: var(--tirtiary_color);
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
+.contact_button {
+    background-color: var(--primary_color);
+    display: inline-block;
+    width: 14rem;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: fredoka;
+    font-size: 1.5rem;
+}
+
+.contact_button:hover {
+    background-color: var(--secondary_color);
+    color: white;
+}
+
+
+.projects {
+    background-color: var(--secondary_color);
+    margin: 2rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.buttons {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttons button {
+    background-color: var(--primary_color);
+    display: block;
+    width: 14rem;
+    height: 3rem;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1.5rem;
+}
+
+.buttons button:hover {
+    background-color: var(--tirtiary_color);
+    color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--tirtiary_color);
+    color: white;
+    padding: 2rem;
+}
+
+footer div {
+    display: flex;
+    gap: 1rem;
+}
+
+footer a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+
+footer img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
