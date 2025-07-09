@@ -38,6 +38,7 @@ h3 {
     margin-top: 3rem;
     margin-bottom: 2rem;
     padding: 4rem;
+    border-radius: 1rem;
 }
 
 header img {
@@ -83,6 +84,7 @@ header {
     display: flex;
     flex-direction: column;
     text-align: center;
+    border-radius: 1rem;
 }
 
 .buttons {
@@ -104,6 +106,44 @@ header {
 }
 
 .buttons button:hover {
+    background-color: var(--tirtiary_color);
+    color: white;
+}
+
+.individual_project {
+    padding: 1rem;
+    border-radius: 2rem;
+    margin: 2rem;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+
+}
+
+.individual_project img {
+    border-radius: 1rem;
+    width: 300px;
+    height: 300px;
+}
+
+.individual_project a {
+    background-color: var(--primary_color);
+    display: inline-block;
+    width: 14rem;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: fredoka;
+    font-size: 1.5rem;
+}
+
+.individual_project a:hover {
     background-color: var(--tirtiary_color);
     color: white;
 }
@@ -131,4 +171,35 @@ footer img {
     width: 100%;
     height: auto;
     display: block;
+}
+
+.contact_me {
+    background-color: var(--secondary_color);
+    margin: 2rem;
+    padding: 1rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    border-radius: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc; /* Add a border to make it visually consistent */
+  border-radius: 4px;
+}
+
+.errors {
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
 }

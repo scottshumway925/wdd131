@@ -8,7 +8,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
-    <meta name="description" content="This is a portfolio page for Scott Shumway, displaying all of his projects in an online format.">
+    <meta name="description" content="This is a contact page for Scott Shumway, allowing people to reach out to him.">
     <meta name="author" content="Scott Shumway">
     <link rel="icon" href="cardboard_games_beta.webp" type="image/png">
     <link href="recipes.css" rel="stylesheet">
@@ -16,9 +16,9 @@
     <meta property="og:type" content="website" />
     <meta property="og:description" content="This webpage displays recipes and has search capabilities.">
     <meta property="og:image" content="images/apple-crisp.jpg">
-    <meta property="og:url" content="https://scottshumway925.github.io/wdd131/portfolio/portfolio.html">
+    <meta property="og:url" content="https://scottshumway925.github.io/wdd131/portfolio/contact_page.html">
     <meta name="twitter:card" content="summary_large_image">
-    <script src="portfolio.js" type="module" defer></script>
+    <script src="contact_form.js" defer></script>
 </head>
 <body>
     <header>
@@ -27,27 +27,32 @@
             <h1>Scott Shumway</h1>
             <h2>Cardboard Games Developer</h2>
         </secction>
-        <a href="contact_page.html" class="contact_button">Contact Me</a>
+        <a href="portfolio.html" class="contact_button">Portfolio</a>
     </header>
     <main>
         <div class="about_section">
             <div>
-                <h2>About Me</h2>
+                <h2>Contacting Me</h2>
                 <h3>Scott Shumway</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, necessitatibus voluptatum sequi inventore quidem facilis omnis sapiente ipsam dolorem, distinctio nisi repellat nemo pariatur, doloremque a mollitia aliquam incidunt itaque.</p>
+                <p>I am a programmer at heart. Please feel free to reach out to me if you have any questions about what I can do or would like to talk with me about completing a project that you have in mind! I am very willing to work with you. I believe in building a better world, so anything you have in mind I'm willing to discuss! Thank you so much!</p>
             </div>
             <img src="images/scott_shumway.jpg" alt="Picture of Scott Shumway" class="profile_picture">
         </div>
-        <div class="projects">
-            <section class="buttons">
-                <button class="personal_button">Personal Projects</button>
-                <button class="website_button">Websites</button>
-                <Button class="class_button">Class Projects</Button>
-            </section>
-            <section class="listed_projects">
-                <h2 class="project_type">Type</h2>
-                <div class="project_display">Here are some projects</div>
-            </section>
+        <div class="contact_me">
+            <h2>Contact Me:</h2>
+            <section class="errors"></section>
+            <form id="checkoutForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="reason">Reason for Contact:</label>
+                <textarea id="reason" name="reason" rows="6" required></textarea>
+
+                <button type="submit">Place Order</button>
+            </form>
         </div>
     </main>
     <footer>
