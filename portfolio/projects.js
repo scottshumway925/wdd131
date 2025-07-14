@@ -23,21 +23,21 @@ const projects = [
     {
         name: 'Recipes',
         type: 'Website',
-        link: '<a href="https://shumworld.itch.io/big-brainy-bob">Recipes Site</a>',
+        link: '<a href="https://scottshumway925.github.io/wdd131/recipes/index.html">Recipes Site</a>',
         image: '<img src="images/recipes.png" alt="Image of Scott Shumway">',
         description: 'This website serves as the baseline for a recipe page, containing lots of different recipes. These recipes can be filtered using the search bar at the top form their names, food tags, or ingredients.'
     },
     {
         name: 'Credit Card',
         type: 'Website',
-        link: '<a href="https://shumworld.itch.io/big-brainy-bob">Credit Card Site</a>',
+        link: '<a href="https://scottshumway925.github.io/wdd131/creditcard/index.html">Credit Card Site</a>',
         image: '<img src="images/credit_card.png" alt="Image of Scott Shumway">',
         description: 'This is a website that I built which utlizes CSS grid and z-values to create a credit card form. The inputs have been sanitized and only allow specific kinds of data through.'
     },
     {
         name: 'Picture Site',
         type: 'Website',
-        link: '<a href="https://shumworld.itch.io/big-brainy-bob">Picture Gallery</a>',
+        link: '<a href="https://scottshumway925.github.io/wdd131/coolpics/index.html">Picture Gallery</a>',
         image: '<img src="images/coolpics.png" alt="Image of Scott Shumway">',
         description: 'This website is a framework that I created using HTML, CSS, and JavaScript. The website is compatible with mobile and desktop sized screens. In addition to this, an image may be clicked on to view it in a larger, modal form.'
     },
