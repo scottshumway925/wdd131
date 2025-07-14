@@ -32,7 +32,27 @@ function filterProjects(searchValue) {
     return filtered
 }
 
+function setupButtonClick(buttonClass, filterValue) {
+    const button = document.querySelector(`.${buttonClass}`)
+    button.addEventListener("click", () => {
+        document.querySelectorAll(".buttons button").forEach(btn => {
+            if (btn === button) {
+                btn.classList.add("selected")
+            } else {
+                btn.classList.remove("selected")
+            }
+        })
+        renderProjects(filterProjects(filterValue))
+    })
+}
+
+setupButtonClick("website_button", "website")
+setupButtonClick("class_button", "class")
+setupButtonClick("personal_button", "personal")
+
+document.querySelector(".personal_button").classList.add("selected")
 renderProjects(filterProjects("personal"))
+
 document.querySelector(".website_button").addEventListener("click", () => {renderProjects(filterProjects("website"))})
 document.querySelector(".class_button").addEventListener("click", () => {renderProjects(filterProjects("class"))})
 document.querySelector(".personal_button").addEventListener("click", () => {renderProjects(filterProjects("personal"))})
