@@ -222,4 +222,12 @@ textarea {
         display: block;
         margin: 0 auto;
     }
+
+    header {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        display: block;
+        margin: 0 auto;
+        padding-bottom: 1rem;
+    }
 }
